@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bodystyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+<body>
+    <form name="myForm" action="next.html" onsubmit= "return ValidateFunction()" method="GET">     <div class="overall-container">
+        <div class="semicircle"></div>
+        <div class="whitebox"> 
+            <div class="left">
+                <div class="name-div">
+                <label for="name" class="labels">வரன் பெயர்</label> 
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="date-div">
+                <label for="date" class="labels">பிறந்த தேதி</label> 
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="time-div">
+                <label for="time" class="labels">நேரம்</label> 
+                <input type="text" id="time" name="time">
+            </div>
+            <div class="regtime-div">
+                <label for="reg" class="labels">பதிவு தேதி</label> 
+                <input type="date" id="reg" name="reg">
+            </div>
+            <div class="study-div">
+                <label for="study" class="labels">படிப்பு</label> 
+                <input type="text" id="study" name="study">
+            </div>
+            <div class="work-div">
+                <label for="work" class="labels">வேலை</label> 
+                <input type="text" id="work" name="work">
+            </div>
+            <div class="income-div">
+                <label for="income" class="labels">வருமானம்</label> 
+                <input type="text" id="income" name="income">
+            </div>
+            <div class="color-div">
+                <label for="color" class="labels">நிறம்</label> 
+                <input type="text" id="color" name="color">
+            </div>
+            <div class="height-div">
+                <label for="height" class="labels">உயரம்</label> 
+                <input type="text" id="height" name="height">
+            </div>
+            <div class="father-div">
+                <label for="father" class="labels">தந்தை</label> 
+                <input type="text" id="father" name="father">
+            </div>
+            <div class="mother-div">
+                <label for="mother" class="labels">தாய்</label> 
+                <input type="text" id="mother" name="mother">
+            </div>
+            <div class="siblings-div">
+                <label for="siblings" class="labels">உடன் பிறப்பு </label> 
+                <label for="siblings-male" class="labels">ஆண்</label> 
+                <input type="radio" id="siblings-male" name="siblings" >
+                <label for="siblings-female" class="labels">பெண்</label> 
+                <input type="radio" id="siblings-female" name="siblings">
+            </div>
+            
+
+            </div>
+            <div class="center">
+            <div class="image-div">
+                <label for="img" class="labels">படம்</label>
+            <input type="file" id="img" name="img" accept="image/*">
+        </div>
+        <div class="married-div">
+            <label for="married" class="labels">உடன் பிறப்பு </label> 
+            <label for="married-yes" class="labels">ஆம்</label> 
+            <input type="radio" id="married-yes" name="married" >
+            <label for="married-no" class="labels">இல்லை</label> 
+            <input type="radio" id="married-no" name="married">
+        </div>
+        <div class="vasadhi-div">
+            <label for="vasadhi" class="labels">வசதிகள்</label> 
+            <input type="text" id="vasadhi" name="vasadhi">
+        </div>
+        <div class="phone-div">
+            <label for="phone" class="labels">செல்</label> 
+            <input type="text" id="phone" name="phone">
+        </div>
+        <div class="expect-div">
+            <label for="expect" class="labels">எதிர்பார்ப்பு</label> 
+            <input type="text" id="expect" name="expect">
+        </div>
+        <div class="casteopt-div">
+            <label for="casteopt" class="labels">சாதி சான்று செரிபார்க்கப்பட்டதா ?</label> 
+            <label for="casteopt-yes" class="labels">ஆம்</label> 
+            <input type="radio" id="casteopt-yes" name="casteopt" >
+            <label for="casteopt-no" class="labels">இல்லை</label> 
+            <input type="radio" id="casteopt-no" name="casteopt">
+
+        </div>
+        <div class="caste-div">
+            <label for="caste" class="labels">சாதியில்</label> 
+            <input type="text" id="caste" name="caste">
+        </div>
+        <div class="address-div">
+            <label for="address" class="labels">முகவரி</label> 
+           <textarea name="address" id="address" cols="10" rows="10"></textarea>
+        </div>
+        <div class="direction-div">
+            <label for="direction" class="labels">திசையிருப்பு</label> 
+            <input type="text" id="direction" name="direction">
+        </div>
+        <div class="religion-div">
+            <label for="religion" class="labels">மதம்</label> 
+            <input type="text" id="religion" name="religion">
+        </div>
+      
+
+            </div>
+            <div class="third">
+                <div class="kulam-div">
+                    <label for="kulam" class="labels">குலம்</label> 
+                    <input type="text" id="kulam" name="kulam">
+                </div>
+                <div class="kothiram-div">
+                    <label for="kothiram" class="labels">கோத்திரம்</label> 
+                    <input type="text" id="kothiram" name="kothiram">
+                </div>
+                <div class="kuladheivam-div">
+                    <label for="kuladheivam" class="labels">குலதெய்வம்</label> 
+                    <input type="text" id="kuladheivam" name="kuladheivam">
+                </div>
+                <div class="kuripu-div">
+                    <label for="kuripu" class="labels">குறிப்பு</label> 
+                    <input type="text" id="kuripu" name="kuripu">
+                </div>
+                <div class="lakkanam-div">
+                    <label for="lakkanam" class="labels">லக்கணம்</label> 
+                    <input type="text" id="lakkanam" name="lakkanam">
+                </div>
+                <div class="rasi-div">
+                    <label for="rasi" class="labels">ராசி </label> 
+                    <input type="text" id="rasi" name="rasi">
+                </div>
+                <div class="star-div">
+                    <label for="star" class="labels">நட்சத்திரம்  </label> 
+                    <input type="text" id="star" name="star">
+                </div>
+
+                <input type="submit" id="submit" value="Next">
+            </div>
+        </div>
+
+    </div>
+</form>
+</body>
+</html>

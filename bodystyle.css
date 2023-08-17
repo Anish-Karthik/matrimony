@@ -1,0 +1,452 @@
+body{
+    background-image: linear-gradient(45deg,#101820,#101820);
+    overflow: hidden;
+}
+.semicircle{
+    transform: translate(-50%,-50%);
+    height:950px;
+    width: 100%;
+    border-radius: 550px 0 0 0;
+    margin-left: 50%;
+    margin-right: 50%;
+    position: absolute;
+    top: 650px;
+    box-shadow: 0px 0px 30px rgb(58, 58, 58);
+    z-index: -1;
+    background-image: linear-gradient(45deg,#FEE715,#fee7159f);
+    object-fit:contain;
+}
+.whitebox{
+    height: 530px;
+    width: 95%;
+    margin-left: 2%;
+    position: absolute;
+    top: 35px;
+    background: rgba(224, 255, 205, 0.3);
+border-radius: 30px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+border: 1px solid rgba(253, 244, 244, 0.3);
+
+}
+.left{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.labels
+{
+    color: rgb(207, 207, 207);
+    margin-right: 20px;
+}
+#name{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white;
+}
+#date
+{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white;
+}
+.date-div
+{
+    margin-top: 20px;
+}
+#time{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:54px;
+}
+.time-div{
+    margin-top: 20px;
+
+}
+.center{
+    float: right;
+    position: relative;
+    right: 380px;
+    bottom:494px ;
+}
+.regtime-div{
+    margin-top: 20px;
+
+}
+#reg{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:10px;
+}
+.study-div{
+    margin-top: 20px;
+
+}
+#study{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:44px;
+}
+.work-div{
+    margin-top: 20px;
+
+}
+#work{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:36px;
+}
+.income-div{
+    margin-top: 20px;
+
+}
+#income{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:5px;
+}
+.color-div{
+    margin-top: 20px;
+
+}
+#color{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:52px;
+}
+.height-div{
+    margin-top: 20px;
+
+}
+.height-div .labels{
+    color: #101820;
+
+}
+#height{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:38px;
+}
+.father-div{
+    margin-top: 20px;
+
+}
+.father-div .labels{
+    color: #101820;
+
+}
+#father{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:38px;
+}
+.mother-div{
+    margin-top: 20px;
+
+}
+.mother-div .labels{
+    color: #101820;
+
+}
+#mother{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:55px;
+}
+.siblings-div{
+    margin-top: 20px;
+
+}
+.siblings-div .labels{
+    color: #101820;
+
+}
+
+.married-div{
+margin-top: 20px;
+}
+.married-div .labels{
+    color: rgb(207, 207, 207);
+
+}
+.vasadhi-div{
+    margin-top: 20px;
+
+}
+.vasadhi-div .labels{
+    color: rgb(207, 207, 207);
+
+}
+#vasadhi{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:10px;
+    width: 300px;
+}
+.phone-div{
+    margin-top: 20px;
+
+}
+.phone-div .labels{
+    color: #101820
+
+}
+#phone{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:44px;
+}
+.expect-div{
+    margin-top: 20px;
+
+}
+.expect-div .labels{
+    color: #101820
+
+}
+#expect{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:18px;
+    width: 260px;
+}
+.casteopt-div{
+    margin-top: 20px;
+ }
+.casteopt-div .labels{
+   color:#101820;
+    
+  }
+  .caste-div{
+    margin-top: 20px;
+
+}
+.caste-div .labels{
+    color: #101820
+
+}
+#caste{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:18px;
+    width: 260px;
+}
+.address-div{
+    margin-top: 20px;
+
+}
+.address-div .labels{
+    color: #101820;
+    position: relative;
+    bottom: 70px;
+
+}
+#address{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:25px;
+    width: 260px;
+    height: 80px;
+}
+.direction-div{
+    margin-top: 20px;
+
+}
+.direction-div .labels{
+    color: #101820
+
+}
+#direction{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:18px;
+    width: 260px;
+}
+.religion-div{
+    margin-top: 20px;
+
+}
+.religion-div .labels{
+    color: #101820
+
+}
+#religion{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:54px;
+    width: 150px;
+}
+.third{
+    float: right;
+    position: relative;
+    bottom: 510px;
+    left: 490px;
+
+}
+.kulam-div{
+    margin-top: 20px;
+
+}
+.kulam-div .labels{
+    color: rgb(207, 207, 207);
+
+}
+#kulam{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:60px;
+    width: 150px;
+}
+.kothiram-div{
+    margin-top: 20px;
+
+}
+.kothiram-div .labels{
+    color: rgb(207, 207, 207);
+
+}
+#kothiram{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:18px;
+    width: 150px;
+}
+.kuladheivam-div{
+    margin-top: 20px;
+
+}
+.kuladheivam-div .labels{
+    color: rgb(207, 207, 207);
+
+}
+#kuladheivam{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #FEE715;
+    color: white; 
+    margin-left:4px;
+    width: 150px;
+}
+.kuripu-div{
+    margin-top: 20px;
+
+}
+.kuripu-div .labels{
+    color: #101820;
+}
+#kuripu{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:52px;
+    width: 150px;
+}
+.lakkanam-div{
+    margin-top: 20px;
+
+}
+.lakkanam-div .labels{
+    color: #101820;
+}
+#lakkanam{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:28px;
+    width: 150px;
+}
+.rasi-div{
+    margin-top: 20px;
+
+}
+.rasi-div .labels{
+    color: #101820;
+}
+#rasi{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:74px;
+    width: 150px;
+}
+.star-div{
+    margin-top: 20px;
+
+}
+.star-div .labels{
+    color: #101820;
+}
+#star{
+    border-width: 0 0 2px 0;
+    background: transparent;
+    border-color: #101820;
+    color: white; 
+    margin-left:18px;
+    width: 150px;
+}
+#submit{
+    background-color: #101820;
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'poppins';
+    font-weight: 400;
+    border-radius: 5px; 
+    font-family: 'poppins';
+    position: relative;
+    top: 170px;
+    left: 230px;
+}
+#submit:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+
+    opacity: 1;
+}
